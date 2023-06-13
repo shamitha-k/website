@@ -1,0 +1,28 @@
+{
+  "name": "bootstrap-scss",
+  "version": "1.0.0",
+  "description": "learnig bootstrap and scss",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"sass --watch scss:dist"
+  },
+  "keywords": [
+    "Bootstrap",
+    "bootstrap-scss",
+    "sass",
+    "learn-bootstrap",
+    "learn-sass"
+  ],
+  "author": "shamitha",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.63.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "autoprefixer": "^10.4.14",
+    "bootstrap": "^5.3.0",
+    "postcss": "^8.4.24",
+    "postcss-cli": "^10.1.0"
+  }
+}

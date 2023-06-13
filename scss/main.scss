@@ -1,0 +1,106 @@
+@use "custom";
+$primary: black;
+$secondary: skyblue;
+$text-color: #ccc;
+$font-weight: bold;
+
+body {
+  background-color: black !important;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: center;
+
+  list-style-type: none;
+}
+a {
+  display: block;
+  color: $text-color;
+  width: 200px;
+  background-color: $primary;
+  color: $text-color;
+  padding: 10px;
+  text-decoration: none !important;
+  font-size: 20px;
+
+  font-size: $font-weight;
+  text-align: center;
+}
+a:hover {
+  background-color: $text-color;
+}
+h2 {
+  background-color: $secondary;
+  color: $primary;
+  text-align: center;
+  margin: 0 !important;
+}
+.navbar {
+  background-color: aquamarine;
+  a {
+    background-color: aquamarine;
+    text-decoration: none;
+    color: black;
+  }
+  .button {
+    padding: 20px 30px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    background-color: blue;
+    border-radius: 20px;
+    box-shadow: 0 10px aquamarine;
+  }
+
+  .button:hover {
+    background-color: blue;
+  }
+
+  .button:active {
+    background-color: #007095;
+    box-shadow: 0 5px rgb(25, 25, 25);
+    transform: translateY(5px);
+  }
+}
+.header {
+  color: rgb(141, 77, 77);
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700 !important;
+}
+.subheader {
+  color: rgb(198, 239, 240);
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px !important;
+}
+.paragraph {
+  font-style: oblique !important;
+  color: rgb(186, 18, 18) !important;
+  font-weight: 500 !important;
+  font-size: 50px;
+  text-shadow: #ccc;
+}
+.img {
+  height: 45% !important;
+  width: 45% !important;
+  background-color: black !important;
+}
+.card {
+  background-color: $primary !important ;
+}
+.container1 {
+  width: 100%;
+  height: 225px;
+}
+.img1 {
+  vertical-align: middle;
+  display: flex !important;
+  margin: 0 auto !important;
+}
+.container3 p {
+  font-size: 30px;
+}
